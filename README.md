@@ -32,4 +32,4 @@ https://satoru-tanaka-1977.github.io/cj-beginner-ec-v2/
 
 ## 制作状況
 
-制作中（2026.10.26〜）
+完成（2026.10.26〜10.27）
