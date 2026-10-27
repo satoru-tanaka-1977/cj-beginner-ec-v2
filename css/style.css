@@ -163,4 +163,26 @@ ul {
   text-align: center;
   font-size: 0.625rem;
   padding: 10px 0;
+}
+
+@media screen and (max-width: 896px) {
+  .header {
+    border-bottom: none;
+    padding: 36px 16px 16px;
+  }
+  .header__nav {
+    overflow-x: scroll;
+  }
+  .item {
+    padding-top: 0;
+    flex-direction: column;
+  }
+  .item__img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .item__info {
+    width: 100%;
+    padding: 0 16px;
+  }
 }/*# sourceMappingURL=style.css.map */

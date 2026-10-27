@@ -165,3 +165,27 @@ ul {
   font-size: 0.625rem;
   padding: 10px 0;
 }
+
+// レスポンシブ
+@media screen and (max-width: 896px) {
+  .header {
+    border-bottom: none;
+    padding: 36px 16px 16px;
+
+    &__nav {
+      overflow-x: scroll;
+    }
+  }
+  .item {
+    padding-top: 0;
+    flex-direction: column;
+    &__img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    &__info {
+      width: 100%;
+      padding: 0 16px;
+    }
+  }
+}
